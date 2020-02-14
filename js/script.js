@@ -12,3 +12,15 @@ function getDay(name){
         return day
     }
 }
+
+function getGender(){
+    var radio = document.getElementsByName("gender");  
+
+    for (var i = 0; i < radio.length; i++){
+        if (radio[i].checked){
+            var gender = radio[i].value;
+            return gender;
+        }
+    }
+}
+
