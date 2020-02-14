@@ -31,5 +31,11 @@ function getName(){
     var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var day=["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "saturday"]
 
-   
+    if (getGender() === "male"){
+        document.getElementById("post").innerHTML =( "Hello ") + (document.getElementById("name").value) + (" if you were Born in Ghana and your Gender is a Male then your Akan Name is " ) + male[getDay(name)] + (" since you were born on ") + day[getDay(name)];
+    }else if(getGender() === "female"){
+        document.getElementById("post").innerHTML =( "Hello ") + (document.getElementById("name").value) + (" if you were Born in Ghana and your Gender is a Female then your Akan Name is " ) +female[getDay(name)]+ (" since you were born on ") + day[getDay(name)];
+    }else{
+        alert("Confirm that you have selected your gender")
+    }
 }
