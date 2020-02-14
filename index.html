@@ -20,7 +20,47 @@
             
                 </div>
         </div>
-       
+        <form name="myform">
+        
+            <div>
+                <label class="name"><b>Your name:</b></label> 
+                <input type="text" placeholder="Enter your name" name="name" id="name" required> 
+                
+            </div>
+
+            <div>
+                <label class="year"><b>Year Of Birth:</b></label> 
+                <input type="number"  placeholder="YYYY" name="year" id="year" min="1" minlength="1" maxlength="4"required /> 
+            </div>
+
+            <div>
+                <label class="month"><b>Month Of Birth:</b></label> 
+                <input type="number" placeholder="MM" name="month" id="month" min="1" max="12" maxlength="2"   required> 
+            </div>
+
+            <div>
+                <label class="day"><b>Date Of Birth:</b></label> 
+                <input type="number" placeholder="DD" name="date" id="date" min="1" max="31" maxlength="2" required> 
+            </div>
+
+            <div>
+                <p>Choose your gender:</p>
+                <label for="male">Male</label>
+                <input id ="male" name="gender" type="radio" value="male">
+
+                <label for="female">Female</label>
+                <input id = "female" name="gender" type="radio" value="female">
+            </div>
+            <div>
+                <input type="Reset" class="reset">           
+                <button type="submit" onclick="getName();return false;" value="submit">submit</button>
+            </div>
+
+            <div>
+                <p id="post"></p>
+            </div>
+            
+        </form>
     </div>
     <script src="js/script.js"></script>
 </body>
