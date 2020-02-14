@@ -33,3 +33,9 @@ form{
 .row{
     display:inline-block
 }
+h1{
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    color: RGB(205, 92, 92);
+
+}
