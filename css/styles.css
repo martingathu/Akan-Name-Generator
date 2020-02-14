@@ -39,3 +39,11 @@ h1{
     color: RGB(205, 92, 92);
 
 }
+form{
+    border:5px solid white;
+    
+}
+body{
+    background-image: url(https://i.dlpng.com/static/png/6829361_preview.png);
+    background-size: cover;
+}
