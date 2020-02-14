@@ -1,2 +1,35 @@
 
+.name {
+    margin-right: 30px;
+}
 
+.year, .day {
+    margin-right: 12px;
+}
+
+.form div {
+    padding-bottom: 20px;
+}
+
+.reset:hover{
+    background-color: red;
+}
+
+button:hover {
+    background-color: rgb(43, 131, 8);
+    color: white;
+}
+form{
+    padding-left: auto;
+    padding-right: auto;
+}
+#post{
+    padding: 10px;
+    color:red;
+    font-size: larger;
+    font-family: 'Bree Serif', serif;
+    
+}
+.row{
+    display:inline-block
+}
