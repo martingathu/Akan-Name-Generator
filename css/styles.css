@@ -7,10 +7,6 @@
     margin-right: 12px;
 }
 
-.form div {
-    padding-bottom: 20px;
-}
-
 .reset:hover{
     background-color: red;
 }
@@ -41,9 +37,27 @@ h1{
 }
 form{
     border:5px solid white;
+    margin-right: auto;
+    margin-left: auto;
     
 }
 body{
     background-image: url(https://i.dlpng.com/static/png/6829361_preview.png);
     background-size: cover;
+}
+form{
+    border: 1px solid black;
+    padding:5px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: x-large;
+}
+img{
+    width:auto;
+    height: 150px;
+}
+#intro p{
+    font-family: 'Aladin', cursive;
+    font-size: x-large;
+    text-align: center;
 }
