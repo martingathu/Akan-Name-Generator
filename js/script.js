@@ -39,3 +39,8 @@ function getName(){
         alert("Confirm that you have selected your gender")
     }
 }
+//Hide/show form on click
+function myFunction() {
+    var showform = document.getElementById("myForm");
+    showform.style.display = "block";
+  }
