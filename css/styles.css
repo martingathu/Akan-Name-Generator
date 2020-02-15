@@ -61,3 +61,10 @@ img{
     font-size: x-large;
     text-align: center;
 }
+#myForm{
+    display:none;
+}
+#showform{
+    font-size:x-large ;
+    color: green;
+}
