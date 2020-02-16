@@ -24,11 +24,12 @@
         <div id="showform">
             <p>Click the "Try it" button to view your Akan name:</p>
 
-            <button onclick="myFunction()">Try it</button>
+            <button type="button" class="btn btn-success" onclick="myFunction()">Try it</button>
         </div>
-        <form name="myform" id="myForm">
+        <form name="myform" id="myForm" >
         
             <div>
+                <p>Enter The Details Below and press submit</p>
                 <label class="name"><b>Your name:</b></label> 
                 <input type="text" placeholder="Enter your name" name="name" id="name" required> 
                 
@@ -68,13 +69,11 @@
             
         </form>
         <div>
-            <img src="images/akanNames_home.jpg" alt="Akan Names" id="akan"/>
+            <img src="images/akanNames_home.jpg" alt="Akan Names" id="akan" class="rounded mx-auto d-block img-fluid"/>
         </div>
-        <footer class="footer">
-        <div class="footer-copyright text-center">© 2020 Copyright: Akan Name Generator
-          </div>
-           
-        </footer>
+                        
+     </div>
+     <div class="footer-copyright text-center">© 2020 Copyright: Akan Name Generator
     </div>
     <script src="js/script.js"></script>
 </body>

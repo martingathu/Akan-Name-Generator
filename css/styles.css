@@ -26,6 +26,12 @@ form{
     font-family: 'Bree Serif', serif;
     
 }
+#header3{
+    padding: 10px;
+    color:red;
+    font-size: larger;
+    font-family: 'Bree Serif', serif;
+}
 .row{
     display:inline-block
 }
@@ -46,11 +52,10 @@ body{
     background-size: cover;
 }
 form{
-    border: 1px solid black;
     padding:5px;
     margin-left:auto;
     margin-right:auto;
-    font-size: x-large;
+    font-size:larger;
 }
 img{
     width:auto;
@@ -63,8 +68,23 @@ img{
 }
 #myForm{
     display:none;
+    
 }
 #showform{
     font-size:x-large ;
     color: green;
 }
+#akan{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.footer-copyright {
+    font-size: larger;
+    background-color: #efefef;
+    width: 100%;
+    
+  }
