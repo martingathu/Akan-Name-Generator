@@ -21,10 +21,9 @@ No known bugs at the moment
 * date input -- 25
 * gender -- female
 **Expected output is *Hey (your name)! if you were born in Ghana your name would be Yaa***
-## License
-MIT Copyright(c) 2019
+
 ## GitHub link
-To open My-Portfolio [Click Here](https://martingathu.github.io/portfolio/)
+To open My-Portfolio [Click Here](https://martingathu.github.io/Akan-Name-Generator/)
 ## Support and contact details
 for any querries contact me via Martin5gathu@gmail.com.
 
