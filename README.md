@@ -15,12 +15,31 @@ No known bugs at the moment
 + JavaScript
 + Bootstrap
 ## BDD
+* Enter your Name
+
+* Enter year of Birth eg  2020
+
+* Enter month of birth eg 2 for february
+
+* Enter Date of the month you were born in eg 14
+
+* Select gender
+   Input example Male 
+
+Submit.
+The program compares the input with the conditions set for the input,If no input,that is the field is empty,the program executes an alert for you to enter valid details.
+* 0 < Date >= 31.
+* 0 < Month >= 12
+* Gender Male or Female.
+#### Output **Hello (name) if you were Born in Ghana and your Gender is a (Gender) then your Akan Name is (Akan Name) since you were born on (day)**
+
 **Example**
-* year input   -- 1930
-* month input  -- 6
-* date input -- 25
-* gender -- female
-**Expected output is *Hey (your name)! if you were born in Ghana your name would be Yaa***
+* Name input --Martin
+* year input   -- 2020
+* month input  -- 2
+* date input -- 14
+* gender -- Male
+**Expected output is ***Hello martin if you were Born in Ghana and your Gender is a Male then your Akan Name is Kofi since you were born on Friday***
 
 ## GitHub link
 To open My-Portfolio [Click Here](https://martingathu.github.io/Akan-Name-Generator/)
