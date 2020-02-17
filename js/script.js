@@ -4,9 +4,13 @@ function getDay(name){
     var year = document.getElementById("year").value;
     var century = year.slice(0, 1);
     var years = year.slice(2, 3);
-
-    if (month === "" || month < 1 || month > 12 || date === "" || date < 0 || date > 31 || year === "" || year.length > 4 || name === ""){
-        alert("Confirm that you have entered the correct information!")
+      
+    if (year === "" || year.length > 4){
+        alert("Invalid year!");
+    }else if (month === "" || month < 1 || month > 12){
+        alert("Invalid Month!");
+    }else if (date === "" || date < 0 || date > 31){
+        alert("Invalid date!");
     }else{
         var day = Math.floor((((century/4)-2*century-1)+((5*years/4))+((26*(month+1)/10)) + date) % 7);
         return day
@@ -31,12 +35,12 @@ function getName(){
     var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var day=["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "saturday"]
 
-    if (getGender() === "male"){
+    if (getGender() === "male" && getDay()>=0){
         document.getElementById("post").innerHTML =( "Hello ") + (document.getElementById("name").value) + (" if you were Born in Ghana and your Gender is a Male then your Akan Name is " ) + male[getDay(name)] + (" since you were born on ") + day[getDay(name)];
-    }else if(getGender() === "female"){
+    }else if(getGender() === "female" && getDay()>=0){
         document.getElementById("post").innerHTML =( "Hello ") + (document.getElementById("name").value) + (" if you were Born in Ghana and your Gender is a Female then your Akan Name is " ) +female[getDay(name)]+ (" since you were born on ") + day[getDay(name)];
     }else{
-        alert("Confirm that you have selected your gender")
+        alert("Confirm that you have entered all information correctly")
     }
 }
 //Hide/show form on click

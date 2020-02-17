@@ -39,7 +39,7 @@ The program compares the input with the conditions set for the input,If no input
 * month input  -- 2
 * date input -- 14
 * gender -- Male
-**Expected output is ***Hello martin if you were Born in Ghana and your Gender is a Male then your Akan Name is Kofi since you were born on Friday***
+**Expected output is** ***Hello martin if you were Born in Ghana and your Gender is a Male then your Akan Name is Kofi since you were born on Friday***
 
 ## GitHub link
 To open My-Portfolio [Click Here](https://martingathu.github.io/Akan-Name-Generator/)
